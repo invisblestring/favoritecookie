@@ -11,4 +11,4 @@ def example():
 st.title("good morning witchy")
 resault = st.button("Click me ^_^", on_click=example)
 if resault:
-    st.write("**I love you**")
+    st.title("**I love you**")
