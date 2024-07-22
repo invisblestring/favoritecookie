@@ -8,7 +8,7 @@ def example():
         falling_speed=5,
         animation_length="infinite",
     )
-st.title("good morning Cookie")
+st.title("good morning witchy")
 resault = st.button("Click me ^_^", on_click=example)
 if resault:
     st.write("**I love you**")
