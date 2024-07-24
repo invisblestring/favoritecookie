@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_extras.let_it_rain import rain
 import json
-import streamlit-lottie as st
+from streamlit_lottie import st_lottie
 
 def load_lottiefile(filepath: str):
     with open (filepath, "r") as f:
